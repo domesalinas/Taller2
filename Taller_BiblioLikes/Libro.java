@@ -16,8 +16,12 @@ public class Libro {
         this.meGusta = meGusta;
     }
 
-    public int getCodigo() { return codigo; }
-    public String getTitulo() { return titulo; }
+    public int getCodigo() {
+        return codigo;
+    }
+    public String getTitulo() {
+        return titulo;
+    }
     public String getAutor() { return autor; }
     public String getGenero() { return genero; }
     public int getAnio() { return anio; }
